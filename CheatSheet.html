@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    
     <meta &lt;meta charset="utf8">
     <title> Cheatsheet </title>
+
+<head><link rel="stylesheet" href="CSSSheet.css"></head>
 <body>
     <h1>WWW World Wide Web </h1>
     
@@ -81,6 +84,172 @@
 
     <h2>5. How to mark up important text and how is it displayed in the browser?</h2>
     <p>If you wish to emphasize an important phrase, mark it with strong emphasis strong tag.</p>
+
+    <h1>HTML Basics</h1>
+    
+    <h2>1. Components of elements</h2>
+    <p>It begins with a tagname and smaller bigger sign and at the end of the element.</p>
+    <p>Between is the content to write.</p>
+    <p>Some elements dont have a endtag(br).</p>
+    
+    <h1>Html</h1>
+
+    <h2>1.Name the components of html properly</h2>
+    <p>The components of html are mostly title head and body</p>
+
+    <h2>2. Indentify void elements and how they ar denoted.</h2>
+    <p>Void elements are called empty elements because they have no content.</p>
+    <p> br is used as a line break and an empty element. </p>
+
+    <h2>3. Identify attributes</h2>
+    <p>HTML attributes provide additional information about HTML elements.</p>
+    <p>All HTML elements can have attributes </p>
+    <p>Attributes provide additional information about elements</p>
+    <p>Attributes are always specified in the start tag Attributes usually come in name/value pairs like: name="value"</p>
+    <p>Examples are the:</p>
+
+    <h3>href Attribute</h3>
+    <p>The a tag defines hyperlink. The href attribute specifies the URL of the page. <br> written: (lesser sign) a href="example.com" (lesser sign) /a (greater sign) </p>
+
+    <h3>src Attribute</h3>
+    <p>The img tag is used to embed an image in an HTML page. The src attribute specifies the path to the image. <br> written: (lesser sign) img src="example.jpg" (greater sign)</p>
+    <p></p>
+
+    <h3>width and height Attribute</h3>
+    <p>The img tag should also contain the width and height attributes, which specifies the width and height of the image (in pixels). <br> written: (lesser sign) img src="example.jpg" width="(width in pixel)" height="(height in pixel)" (greater sign)</p>
+
+    <h3>alt Attribute</h3>
+    <p>The required alt attribute for the img tag specifies an alternate text for an image, if the image for some reason cannot be displayed.</p>
+    <p>This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader. <br> written: (lesser sign) img src="example.jpg" alt="(text used instead of the image)" (greater sign)</p>
+
+    <h3>style Attribute</h3>
+    <p>The style attribute is used to add styles to an element, such as color, font, size, and more. <br> written: (lesser sign) p style="color:red;" (greater sign)</p>
+
+    <h3>lang Attribute</h3>
+    <p>You should always include the lang attribute inside the html tag, to declare the language of the Web page. </p>
+    <p>This is meant to assist search engines and browsers. <br> written: (in first html tag) (lesser sign) html lang="en" (greater sign) for US english use: en-US </p>
+
+    <h3>title Attribute</h3>
+    <p>The title attribute defines some extra information about an element.</p> 
+    <p>The value of the title attribute will be displayed as a tooltip when you mouse over the element. <br> written: (used in the header or paragraph) (lesser sign) p title="Text when you mouse over it" (greater sign) text (lesser sign)(slash)p(greater sign) </p>
+
+    <h2>4. Write down the correct DOCTYPE declaration for html 5</h2>
+    <p>The DOCTYPE declaration is (lesser sign) !DOCTYPE html (greater sign)</p>
+
+    <h2>5. Write down syntactically correct statements for the following elements.</h2>
+
+    <h3>article element (lesser sign) article (greater sign)</h3>
+    <p>represents a self-contained composition in a document, page, application, or site, <br> which is intended to be independently distributable or reusable</p>
+
+    <h3>body element (lesser sign) body (greater sign)</h3>
+    <p>lement contains all the contents of an HTML document, such as headings, <br> paragraphs, images, hyperlinks, tables, lists, etc. <br> Note: There can only be one body element in an HTML document.</p>
+    
+    <h3>line break element (lesser sign) br/ (greater sign)</h3>
+    <p>Or br is used to end the line you are currently using and starts at the next line below.</p>
+
+    <h3>heading elements (lesser sign) h1 or h2 or h3 and so on (greater sign)</h3>
+    <p>HTML defines six levels of headings. <br> A heading element implies all the font changes, paragraph breaks before and after, <br> and any white space necessary to render the heading. <br> The heading elements are H1, H2, H3, H4, H5, and H6 with H1 being the highest <br> (or most important) level and H6 the least.</p>
+
+    <h3>head element (lesser sign) head (greater sign)</h3>
+    <p>The head element is a container for metadata (data about data) and is placed between the html tag and the body tag. <br> HTML metadata is data about the HTML document. <br> ... Metadata typically define the document title, character set, styles, scripts, and other meta information.</p>
+
+    <h3>html element (lesser sign) html (greater sign)</h3>
+    <p>The HTML html element represents the root (top-level element) of an HTML document,<br> so it is also referred to as the root element. <br>All other elements must be descendants of this element.<br> None. One head element, followed by one body element.</p>
+
+    <h3>Image named (lesser sign) img src="image.jgp" (greater sign)</h3>
+    <p>Its used to choose the image that you wanna use and you have to give the name.</p>
+
+    <h3>paragraph element (lesser sign) p (greater sign)</h3>
+    <p>The HTML p element represents a paragraph. <br> Paragraphs are usually represented in visual media as blocks of text separated <br> from adjacent blocks by blank lines and/or first-line indentation,<br> but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
+
+    <h3>section element (lesser sign) section (greater sign)</h3>
+    <p>The section element defines a section in a document.<br> According to W3C's HTML documentation: "A section is a thematic grouping of content, <br>typically with a heading." A web page could normally<br> be split into sections for introduction, content, and contact information.</p>
+
+    <h3>title element (lesser sign) title (greater sign)</h3>
+    <p>The HTML Title element ( title ) defines the document's title that is shown <br> in a browser's title bar or a page's tab. <br>It only contains text; tags within the element are ignored.<br> Metadata content. Text that is not inter-element whitespace</p>
+
+    <h3>Link to other pages a element (lesser sign) a (greater sign)</h3>
+    <p>The HTML a element (or anchor element), with its href attribute, creates a hyperlink to web pages,<br> files, email addresses, locations in the same page, or anything else a URL can address. <br> Content within each a should indicate the link's destination.</p>
+
+    <h3>comment element (lesser sign)!-- write comment here --(bigger sign)</h3>
+    <p>This element is used to add a comment to an HTML document. <br>HTML comments are visible to anyone that views the page source code, <br>but are not rendered when the HTML document is rendered by a browser.</p>
+
+    <h3>Head with title and meta elements</h3> 
+    <p>Its head element, title element and style element mostly.</p>
+
+    
+
+
+    <h1>CSS</h1>
+
+    <h2>1. Name the components of a css rule properly</h2>
+
+    <p>  CSS rule-set consist of selector and declaration block: <br> Declarationblock: selector {property: value;} <br> selector is for p tag html tag or body tag or any other tag like h1 </p>
+    <p> properties are color for the text color and text-align for the text <br> red is the value for color and center is the value for text-align</p>
+
+    <h2>2. Use combinators properly: direct child, descendant, adjacent sibling, sibling</h2>
+
+    <h3>Descendant selector (space)</h3>
+    <p>Everything in the HTML File is inside a div element that consists of (lesser sign) div (greater sign)</p>
+    <p>In CSS File written before the selector like this: div(here is the combinator in this case its space) selector {property:value;}</p>
+    <p>If Descendant is used everything within div element is affected</p>
+
+    <h3>child (greater sign)</h3>
+    <p>In CSS File written: div (greater sign) selector {property:value;}</p>
+    <p>everything within the div element expect those elements that are within a section while being in the div element.</p>
+
+    <h3>Adjacent Sibling Selector +</h3> 
+    <p>In CSS File written: div + selector {property:value;}</p>
+    <p>Selects the first element after the div element ends.</p>
+
+    <h3>Sibling ~</h3>
+    <p>In CSS File written: div ~ selector {property:value;}</p>
+    <p>Everything after div element.</p>
+    
+    <h2>3. Specify colors by color names and in hexadecimal notation</h2>
+
+    <p>Color names a have different values like </p>
+    <p>It is used like this:</p>
+    <p>In CSS File written: selector {color:rgb(RR,GG,BB)}</p>
+    <p>Its written in Hexdecimal,RR is red and from 0 to ff. <br> GG is yellow from 0 to ff. <br> BB is for blue and is the same. </p>
+    <p>If everthing is 0 ,its black if only one of them is above 0 it gets more to that color.</p>
+
+    <h2>4. Declarations for color, background color</h2>
+
+    <h2>6. Declaration for background image</h2>
+
+    <h2>7. Declaration for text alignment (left, right, center, justify)</h2>
+    <p>Written: selector{text-align: (left,right,center,justify);}</p>
+    <p>justify means after every words is a space and the last line is aligned left.</p>
+
+    <h2>8. Declaration for text decoration (overline, underline, line-through)</h2>
+    <p> written: selector {text-decoration: (overline, underline, line-through);}</p>
+
+    <h2>9. Declaration for text transformation (uppercase, lowercase, capitalize)</h2>
+    <p>written: selector {text-transform:(uppercase, lowercase, capitalize);}</p>
+    <p> capitalize means everyword begins with a uppercased character.</p>
+
+    <h2>10. Identify the difference between serif and sans-serif fonts</h2>
+    <p>Serif means that the text has small lines at the end of some characters.</p>
+    <p>San-Serif means without those small lines.</p>
+    <p>Written: selector {font-family: "Text to font",(and here the serif or san-serif);}</p>
+
+    <h2>13. Declarations for font sizes</h2>
+    <p>Written: selector {font-size: (number for pixels)px;}</p>
+    <p>Written: selector {font-size: (large,small and so on);}</p>
+    <p>Written: selector {font-size: (fontsize in procent)%;}</p>
+
+    <h2>14. Declarations for font weights</h2>
+    <p>selector {font-weight: normal;}</p>
+    <p>selector {font-weight: lighter;}</p>
+    <p>selector {font-weight: bold;}</p>
+    <p>selector {font-weight: 900;}</p>
+
+
+
+
+
+
 
 
 </body>
